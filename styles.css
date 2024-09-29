@@ -1,6 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
 html { 
     font-family: 'Inter', sans-serif; 
+    background-color: lightyellow;
 }
 
 ol>li::marker {
@@ -13,5 +14,10 @@ ol>li::marker {
 
 main {
     max-width: 800px;
-    margin: auto
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    padding-top: 10px;
+    border: 1.5px solid goldenrod;
+    border-radius: 1rem;
 }
